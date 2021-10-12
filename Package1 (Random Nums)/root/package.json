@@ -1,0 +1,28 @@
+{
+  "name": "masoud-random-numbers-1",
+  "version": "1.0.0",
+  "description": "A simple library to generate random numbers in any range",
+  "main": "masoud-random-numbers-1.cjs.js",
+  "module": "masoud-random-numbers-1.esm.js",
+  "browser": "masoud-random-numbers-1.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "node test/spec",
+    "pretest": "npm run build"
+  },
+  "keywords": [],
+  "author": "Masoud Mohammadi Darvishvand",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "rollup": "^2.58.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "files": [
+    "dist",
+    "src"
+  ]
+}
